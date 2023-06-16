@@ -9,7 +9,7 @@ body {
     background-repeat: repeat-x;
     background-size: auto 100%;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    
+
 }
 
 header {
@@ -29,9 +29,8 @@ div {
     width: 880px;
     margin: 20px auto;
     background: white;
-    border: initial;
-    
-    overflow: overlay;
+    border: 10px solid white;
+    overflow: hidden;
 }
 
 .menu {
@@ -39,9 +38,9 @@ div {
     width: 880px;
     background-color: #488000;
     color: white;
-  }
-  
-  .menu .links a {
+}
+
+.menu .links a {
     display: inline-block;
     vertical-align: middle;
     color: white;
@@ -49,7 +48,7 @@ div {
     text-align: center;
     text-decoration: none;
     padding: 10px 25px;
-  }
+}
 
 .menu .links a:nth-child(5) {
     border-right: 0px;
@@ -68,7 +67,9 @@ p {
     margin: 10px 0px;
 }
 
-h1, h2, h3, h4 {
+h2,
+h3,
+h4 {
     margin: 10px 0px;
 }
 
@@ -102,5 +103,5 @@ footer {
     color: #fff;
     text-align: center;
     clear: both;
-    margin-bottom: 10px;
+
 }
